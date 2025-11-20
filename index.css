@@ -1,0 +1,103 @@
+/* Import Google Fonts (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+/* Film Card Styles */
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color:#A3D5FF;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Card content */
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Pagination */
+.paging-btn {
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.paging-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.paging-btn:not(:disabled):hover {
+  background-color: #004aad;
+  color: white;
+}
+
+/* Search Results Header */
+.mb-3 h5 {
+  font-weight: 500;
+}
+
+.mb-3 em {
+  font-style: italic;
+  color: #333;
+}
+
+/* Responsive grid gap */
+.row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.col-md-4 {
+  flex: 1 1 calc(33.333% - 1rem);
+  max-width: calc(33.333% - 1rem);
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
