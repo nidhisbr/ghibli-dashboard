@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+🌿 Ghibli Film Explorer
+A single-page application (SPA) that allows users to browse and discover the complete catalog of Studio Ghibli films, leveraging a custom-built API backend.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+Asynchronous Data Fetching: Seamlessly retrieves film and character data from a custom API endpoint.
 
-## Available Scripts
+Film Catalog Browsing: Displays all films in a clean, scrollable grid interface.
 
-In the project directory, you can run:
+Detailed Film Views: Users can navigate to dedicated pages to see film descriptions, director, producer, and cast/character lists.
+
+Responsive Design: Optimized layout for an intuitive experience across mobile, tablet, and desktop viewports.
+
+Client-Side Routing: Fast, smooth navigation powered by React Router.
+
+🛠 Tech Stack
+Frontend (Client)
+React: The core JavaScript library for building the user interface.
+
+React Router: For efficient, declarative client-side routing.
+
+Styling: (Choose one)
+
+CSS : For organized, modular, and preprocessed styles.
+
+Styled Components: For CSS-in-JS and component-level styling.
+
+Axios / Fetch API: For making HTTP requests to the backend API.
+
 
 ### `npm start`
 
