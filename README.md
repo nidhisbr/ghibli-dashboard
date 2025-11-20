@@ -25,6 +25,10 @@ CSS : For organized, modular, and preprocessed styles.
 Styled Components: For CSS-in-JS and component-level styling.
 
 Axios / Fetch API: For making HTTP requests to the backend API.
+<img width="1298" height="619" alt="ghibli_1" src="https://github.com/user-attachments/assets/d00c234d-03b2-4a94-9881-9e3e6085f98b" />
+
+
+<img width="1329" height="629" alt="image" src="https://github.com/user-attachments/assets/3baae1ea-d1e6-4af8-8425-27310d78f2fd" />
 
 
 ### `npm start`
