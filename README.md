@@ -1,28 +1,65 @@
 🌿 Ghibli Film Explorer
-A single-page application (SPA) that allows users to browse and discover the complete catalog of Studio Ghibli films, leveraging a custom-built API backend.
+This project is a full-stack web application built using React and Spring Boot, focusing on secure authentication and authorization using JWT.It demonstrates a real-world login/signup flow, protected APIs, and frontend route protection commonly used in enterprise applications.
 
 🚀 Features
+User Signup & Login with JWT-based authentication
+Spring Security for securing REST APIs
+MongoDB integration for persistent user and application data
+Protected routes on frontend using React Router
+Secure API communication using Axios with Bearer tokens
 Asynchronous Data Fetching: Seamlessly retrieves film and character data from a custom API endpoint.
-
 Film Catalog Browsing: Displays all films in a clean, scrollable grid interface.
-
 Detailed Film Views: Users can navigate to dedicated pages to see film descriptions, director, producer, and cast/character lists.
-
 Responsive Design: Optimized layout for an intuitive experience across mobile, tablet, and desktop viewports.
-
 Client-Side Routing: Fast, smooth navigation powered by React Router.
 
 🛠 Tech Stack
-Frontend (Client)
-React: The core JavaScript library for building the user interface.
 
-React Router: For efficient, declarative client-side routing.
+Frontend
 
-Styling: (Choose one)
+React.js
 
-CSS : For organized, modular, and preprocessed styles.
+JavaScript (ES6+)
 
-Styled Components: For CSS-in-JS and component-level styling.
+Axios
+
+React Router
+
+Backend
+
+Java
+
+Spring Boot
+
+Spring Security
+
+Database
+
+MongoDB
+
+Security
+
+JWT (JSON Web Token)
+
+Stateless Authentication
+
+Tools
+
+Maven
+
+Git
+
+Postman
+
+🏗 Architecture (High Level)
+
+React handles UI and client-side routing
+
+Spring Boot exposes REST APIs
+
+Spring Security validates JWT tokens for protected endpoints
+
+MongoDB stores user credentials and application data
 
 Axios / Fetch API: For making HTTP requests to the backend API.
 <img width="1298" height="619" alt="ghibli_1" src="https://github.com/user-attachments/assets/d00c234d-03b2-4a94-9881-9e3e6085f98b" />
